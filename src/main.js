@@ -33,7 +33,7 @@ function onItemClick(item) {
     if (score === carrotCount) {
       finishGame(true);
     }
-  } else if (itme === "bug") {
+  } else if (item === "bug") {
     finishGame(false);
   }
 }
